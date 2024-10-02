@@ -1,0 +1,106 @@
+.card {
+  position: relative; /* Ensure the initials can be positioned absolutely */
+  /* background-color: #fff; Background color of the card */
+  border-radius: 8px; /* Rounded corners */
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); Box shadow for depth */
+  padding: 15px; /* Padding inside the card */
+  margin-bottom: 15px; /* Space between cards */
+  display: flex; /* Flexbox for internal layout */
+  flex-direction: column; /* Stack items vertically */
+  width: 300px; /* Set a fixed width for horizontal length */
+  height: 150px; /* Set a fixed height to keep it rectangular */
+}
+
+.ticket-details {
+  display: flex; /* Use Flexbox for alignment */
+  align-items: center; /* Vertically center items */
+  background-color: white;
+  gap: 10px; /* Adjust the gap as needed */
+  
+}
+
+
+.icon {
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 0px; /* Space between border and icon */
+  background-color: #fff; /* White background for the box */
+  display: flex; /* Keep the icon centered */
+  align-items: center; /* Center icon vertically */
+  justify-content: center; /* Center icon horizontally */
+}
+
+
+
+
+
+
+
+.priority-icon {
+  margin-right: 2px; /* Space between icon and box edge */
+}
+
+.user-initials {
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  width: 30px; /* Size of the circle */
+  height: 30px; /* Size of the circle */
+  border-radius: 50%; /* Make it circular */
+  /* background-color: #f0f0f0; Light background color */
+  color: #333; /* Text color */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the initials */
+  font-weight: bold; /* Make initials bold */
+  font-size: 14px; /* Font size for initials */
+  border: 1px solid lightgrey; /* Optional border */
+}
+.card {
+  /* background-color: #ffffff; */
+  border-radius: 6px;
+  padding: 15px;
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); Soft shadow around the card */
+  transition: box-shadow 0.2s ease;
+  /* border-left: 5px solid #dfe1e6; Neutral border that can change based on priority */
+}
+
+.card h3 {
+  font-size: 16px;
+  /* font-weight: bold; */
+  margin: 0 0 5px;
+  background-color: white;
+}
+
+.card p {
+  font-size: 14px;
+  /* color: #333; */
+}
+.header-container {
+  display: flex;
+  justify-content: space-between; /* Spread the content between left and right */
+  align-items: center; /* Align all items vertically in the center */
+  width: 100%; /* Make sure the container takes up the full width */
+  padding: 10px 0; /* Optional: Add some padding if needed */
+}
+
+.header-container h3 {
+  display: flex;
+  align-items: center; /* Align icon and text in the h3 tag */
+  gap: 10px; /* Optional: Add space between the icon and the text */
+  margin: 0; /* Remove default margin from h3 */
+}
+
+.header-container .icons {
+  display: flex;
+  gap: 10px; /* Optional: Add space between the icons */
+}
+
+.header-container .icons img {
+  cursor: pointer; /* Optional: Change cursor to pointer for the icons */
+}
+
+
+
+
+

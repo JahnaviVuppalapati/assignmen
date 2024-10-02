@@ -1,0 +1,38 @@
+/* src/App.css */
+.board {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.column {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 30%;
+  padding: 10px;
+}
+
+.card {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+select {
+  margin: 10px;
+}
+body {
+  /* font-size: 7px; */
+  background-color: #f7f8fa; /* Set the desired base font size (default is usually 16px) */
+  /* line-height: 1.5; Adjust line height for better readability */
+}
+body {
+  transform: scale(0.6); /* Change the value to zoom in or out (1 = 100%, 0.8 = 80%) */
+  transform-origin: top left; /* Set the origin for scaling */
+  width: 125%; /* Adjust width to prevent overflow */
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+

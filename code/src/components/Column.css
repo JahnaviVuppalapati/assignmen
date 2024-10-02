@@ -1,0 +1,31 @@
+.priority-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Space between the priority header and cards */
+}
+
+.priority-icon {
+  width: 40px; /* Adjust size as needed */
+  height: 20px; /* Adjust size as needed */
+  margin-right: 5px; /* Space between icon and label */
+}
+
+
+
+
+.user-columns-container {
+  display: flex; /* Align user columns side by side */
+  gap: 20px; /* Add some spacing between each user column */
+  flex-wrap: wrap; /* Allows wrapping if there are too many columns to fit in one line */
+}
+
+.user-column {
+  flex: 1; /* Allow each user column to take equal space */
+  min-width: 200px; /* Prevent columns from becoming too narrow */
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column; /* Cards will still be stacked vertically within each user column */
+  gap: 10px; /* Add spacing between the cards */
+}
